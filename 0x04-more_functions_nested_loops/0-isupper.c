@@ -1,12 +1,8 @@
-int main()
+int _isupper(int c)
 {
-    char ch = 'G';
-
-    if (_isupper(ch)) {
-        printf("%c is an uppercase character\n", ch);
+    if (c >= 'A' && c <= 'Z') {
+        return 1; // c is an uppercase character
     } else {
-        printf("%c is not an uppercase character\n", ch);
+        return 0; // c is not an uppercase character
     }
-
-    return 0;
 }
