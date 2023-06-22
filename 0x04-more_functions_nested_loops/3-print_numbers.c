@@ -1,14 +1,17 @@
 #include "main.h"
 
+/**
+ * print_numbers - prints the numbers, from 0 to 9,
+ * followed by a new line
+ */
 void print_numbers(void)
 {
-    int i;
-    char num;
+	int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        num = i + '0';  // Convert the number to its corresponding character
-        _putchar(num);
-    }
-    _putchar('\n');
+	for (i = 0; i < 10; i++)
+	{
+		_putchar(i + '0');
+	}
+
+	_putchar('\n');
 }
