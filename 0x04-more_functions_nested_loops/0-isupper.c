@@ -5,7 +5,7 @@
  * @c: the character to be checked
  * Return: 1 if c is uppercase, 0 otherwise
  */
-int _isupper(int c)
+int _isupper(int a)
 {
-	return (c >= 'A' && c <= 'Z');
+	return (a >= 'A' && c <= 'Z');
 }
