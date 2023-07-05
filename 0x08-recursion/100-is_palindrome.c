@@ -1,5 +1,3 @@
-
-47 lines (43 loc) · 910 Bytes
 #include "main.h"
 
 int check_pal(char *s, int i, int len);
@@ -47,4 +45,3 @@ int check_pal(char *s, int i, int len)
 		return (1);
 	return (check_pal(s, i + 1, len - 1));
 }
-
